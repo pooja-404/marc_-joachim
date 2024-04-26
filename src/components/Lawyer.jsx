@@ -17,7 +17,7 @@ export default function Lawyer() {
                 <div className="flex flex-row  flex-wrap -mx-3 justify-center">
                     <div className="lg:w-1/2  w-full lg:pl-3 lg:pr-10 px-3  text-center" data-aos="zoom-in">
                         <Image
-                            src="/assets/images/Lawyer.png"
+                            src="/assets/images/lawyer.png"
                             height={574}
                             width={559} className="max-md:w-full mx-auto"
                         />
