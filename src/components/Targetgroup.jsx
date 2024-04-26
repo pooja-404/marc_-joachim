@@ -4,10 +4,10 @@ export default function Targergroup() {
             <div className="max-w-[1140px] 2xl:max-w-[1320px]  container px-3 mx-auto " id="benifits">
                 <div className="flex flex-row flex-wrap -mx-3 max-md:py-10 max-sm:py-5 ">
                     <div className="md:w-1/2 w-full px-3 lg:py-28" data-aos="fade-down-right">
-                        <div className="md:max-w-[382px] md:h-[187px] py-7 px-8 bg-[#FFFFFF1F] -backdrop-blur-[100px] border border-[#FFFFFF26] flex items-center">
+                        <div className="md:max-w-[382px] md:h-[187px] py-7 px-8 bg-[#FFFFFF1F] hover:bg-[#003E92B2] duration-500 -backdrop-blur-[100px] border border-[#FFFFFF26] flex items-center">
                             <p className="font-poppins font-normal sm:text-base text-[15px] leading-[25px] text-white">You have separated and have the feeling that you can never be happy again and that you will be alone forever.</p>
                         </div>
-                        <div className="md:max-w-[382px] md:h-[187px]  py-7 px-8 bg-[#FFFFFF1F] -backdrop-blur-[100px] mt-5 border border-[#FFFFFF26] flex items-center">
+                        <div className="md:max-w-[382px] md:h-[187px]  py-7 px-8 bg-[#FFFFFF1F] hover:bg-[#003E92B2] duration-500 -backdrop-blur-[100px] mt-5 border border-[#FFFFFF26] flex items-center">
                             <p className="font-poppins font-normal sm:text-base text-[15px] leading-[25px] text-white">You have separated and have the feeling that you can never be happy again and that you will be alone forever.</p>
                         </div>
                     </div>
