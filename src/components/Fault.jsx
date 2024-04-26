@@ -14,7 +14,7 @@ export default function Fault() {
                     </div>
                 </div>
                 <div className="max-w-[900px] mx-auto lg:pl-24 pt-9 lg:pt-0">
-                    <div className="md:flex items-center gap-12">
+                    <div className="md:flex items-center gap-24">
                         <div data-aos="flip-up" >
                             <h2 className="text-[#000000] text-[60px] font-normal md:!leading-[77px] max-lg:text-center font-helve lg:text-[60px] sm:!text-[50px] !text-4xl">IT'S NOT </h2>
                             <h2 className="max-lg:text-center"><span className="text-[#F77B0B] md:pl-16 text-[60px] font-normal  md:leading-[77px]  font-helve lg:text-[60px] sm:!text-[50px] !text-4xl ">YOUR <span className="text-[#000000]">FAULT!</span></span></h2>
