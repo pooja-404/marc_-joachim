@@ -17,6 +17,8 @@ import Mindslider from "@/components/Mindslider";
 import Client from "@/components/Client";
 import Backtotop from "@/components/Backtotop";
 import Preloder from '@/components/Preloder';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
   const [data, setdata] = useState(false);
@@ -26,13 +28,21 @@ export default function Home() {
       setdata(false);
     }, 4000);
   }, []);
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 2000,
+      }
+    );
+  }, [])
   return (
     <div>
       {data ? (
         <div>{<Preloder />}</div>
       ) : (
-        <div className="bg-white">
-            <div className="bg-bg_image bg-no-repeat max-xl:bg-cover bg-BgSize xl:bg-right bg-center sm:min-h-screen min-h-[90vh] flex flex-col relative z-[1]  max-lg:after:absolute  max-lg:after:w-full max-lg:after:bg-[#eae8e8] max-lg:after:opacity-[0.6] max-lg:after:z-[-1] max-lg:after:h-full ">
+        <div className="bg-white overflow-x-hidden" >
+            <div className="bg-bg_image bg-no-repeat max-xl:bg-cover bg-BgSize xl:bg-right bg-center object-contain 2xl:min-h-screen min-h-[90vh] flex flex-col relative z-[1]  max-lg:after:absolute  max-lg:after:w-full max-lg:after:bg-[#f7bf8d] max-lg:after:opacity-[0.6] max-lg:after:z-[-1] max-lg:after:h-full ">
             <Navsec />
             <Headersec />
           </div>

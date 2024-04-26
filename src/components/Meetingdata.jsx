@@ -24,8 +24,8 @@ export default function Meetingdata() {
     return (
         <>
             <div className="max-w-[1140px] 2xl:max-w-[1320px]  container md:px-3 mx-auto lg:justify-start  bottom-0 flex-col flex">
-                <div className="lg:justify-center flex  lg:pt-7 justify-center">
-                    <div className=" flex flex-wrap flex-row justify-center ">
+                <div className="lg:justify-center flex  lg:pt-10 justify-center">
+                    <div className=" flex flex-wrap flex-row justify-center " data-aos="fade-left">
                         {data}
                     </div>
                 </div>

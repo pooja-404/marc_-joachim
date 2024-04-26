@@ -25,7 +25,7 @@ export default function Cards() {
         <>
             <div className="max-w-[1140px] 2xl:max-w-[1320px]  container mx-auto px-3 " >
                 <div className="md:justify-end flex max-w-[1140px]">
-                    <div className=" flex flex-wrap flex-row justify-center max-md:overflow-x-scroll  ">
+                    <div className=" flex flex-wrap flex-row justify-center max-md:overflow-x-scroll " data-aos="fade-left">
                         {list}
                     </div>
                 </div>

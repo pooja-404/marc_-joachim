@@ -11,7 +11,6 @@ export const Logo = () => {
 
     );
 };
-
 export const Teliphone = () => {
     return (
         <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,6 +123,41 @@ export const BackToTopIcon = () => {
         </svg>
     )
 }
+export const PrevArrow = () => {
+    return (
+        <svg className=" cursor-pointer"
+            width="21"
+            height="36"
+            viewBox="0 0 21 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                d="M20 1.25098L2 18.251L20 35.251"
+                stroke="#9800B0"
+                strokeWidth="1.5"
+            />
+        </svg>
+    );
+};
+export const NextArrow = () => {
+    return (
+        <svg className=" cursor-pointer"
+            width="21"
+            height="36"
+            viewBox="0 0 21 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                d="M1 1.25098L19 18.251L1 35.251"
+                stroke="white"
+                strokeWidth="1.5"
+            />
+        </svg>
+    );
+};
+
 
 
 

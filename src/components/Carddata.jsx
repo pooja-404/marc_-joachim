@@ -21,7 +21,7 @@ export default function Carddata() {
     return (
         <>
             <div className="max-w-[1140px] 2xl:max-w-[1320px]  container lg:px-3 mx-auto lg:justify-start justify-center  bottom-0 flex-col flex">
-                <div className="lg:justify-start flex max-w-[1140px] md:pt-7 justify-center">
+                <div className="lg:justify-start flex max-w-[1140px] md:pt-7 justify-center" data-aos="fade-right">
                     <div className=" flex flex-wrap flex-row ">
                         {data}
                     </div>

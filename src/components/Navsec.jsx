@@ -67,7 +67,7 @@ export default function Navsec() {
             <Image
                 src="/assets/images/headerellipse.png"
                 height={500}
-                width={500} className="absolute -z-20 top-0 left-0 lg:block hidden"
+                width={500} className="absolute -z-20 lg:top-[45px] xl:top-0 left-0 xl:left-[-109px] xl:block hidden"
             />
         </div>
     )

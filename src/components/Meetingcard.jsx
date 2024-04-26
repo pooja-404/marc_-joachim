@@ -26,13 +26,13 @@ export default function Meetingcard() {
         <>
             <div className="max-w-[1140px] 2xl:max-w-[1320px]  container mx-auto px-3  py-8 lg:pt-20 " >
                 <div className="justify-center flex">
-                    <div className=" flex flex-wrap flex-row justify-center">
+                    <div className=" flex flex-wrap flex-row justify-center" data-aos="fade-right">
                         {list}
                     </div>
                 </div>
                 <Meetingdata />
                 <div className="flex items-center gap-2 lg:mt-10 mt-5">
-                    <div className="mx-auto lg:mb-28">
+                    <div className="mx-auto lg:mb-28" data-aos="zoom-in">
                         <div className=" bg-bg-gradient cursor-pointer hover:shadow-[0px_2px_8px_0px_#fff] duration-300 p-[1.7px] max-w-[452px] h-[59px] w-full rounded-[63px] ">
                             <div className=" bg-white h-full w-full py-4 px-2 flex items-center rounded-[63px]">
                                 <Image

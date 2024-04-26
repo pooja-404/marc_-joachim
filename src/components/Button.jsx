@@ -1,9 +1,26 @@
+import { useSwiper } from "swiper/react";
+import { PrevArrow, NextArrow } from "./common/Icons";
 export default function Button(props) {
     return (
         <div className="max-lg:flex justify-center">
-            <button className={`${props.name} z-10 relative bg-bg-gradient flex h-[50px] font-inter font-medium sm:text-base text-[15px] md:leading-[24px] items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#040404] before:duration-500 before:ease-out  hover:border-0 hover:shadow-[0px_0px_12px_0px_#A854E9] hover:before:h-56 hover:before:w-56 text-[#FDFDFF]  p-[14px_17px_14px_17px] sm:p-[14px_24px_14px_24px]`}>
+            <button className={`${props.name} z-10 relative bg-bg-gradient flex h-[50px] font-inter font-medium sm:text-base text-[15px] md:leading-[24px] hover:shadow-[0px_2px_8px_0px_#000] duration-500 text-[#FDFDFF]  p-[14px_17px_14px_17px] sm:p-[15px_24px_15px_24px]`}>
                 <span className='relative z-10 text-nowrap'>{props.text}</span>
             </button>
         </div>
     )
 }
+export const SwiperButton = () => {
+    const swiper = useSwiper();
+    return (
+        <>
+            <div className=" flex  gap-[42px] items-center">
+                <button aria-label="prevarrow" onClick={() => swiper.slidePrev()}>
+                    <PrevArrow />
+                </button>
+                <button aria-label="nextarrow" onClick={() => swiper.slideNext()}>
+                    <NextArrow />
+                </button>
+            </div>
+        </>
+    );
+};
