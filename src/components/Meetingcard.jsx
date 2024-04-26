@@ -1,24 +1,13 @@
 
 import Image from "next/image";
 import Meetingdata from "./Meetingdata";
+import { meetingcard } from "./common/Helper";
 export default function Meetingcard() {
 
-    const productcard = [
-        {
-            text: "How do I let go of my EX so I can finally leave him behind?"
-        },
-        {
-            text: "How does the divorce process work?."
-        },
-        {
-            text: "Do I need a lawyer?"
-        },
-
-    ];
-    const list = productcard.map((productcard, p) => (
+    const list = meetingcard.map((meetingcard, p) => (
         <div className="lg:w-4/12  md:w-2/4 sm:w-2/4 w-full   ">
             <div className=" md:max-w-[250px] lg:h-[200px] h-[100px] mx-auto   bg-[#FFFFFF26] hover:bg-[#003E92]  px-5 duration-500 -backdrop-blur-[100px] " key={p} >
-                <p className='font-poppins font-normal z-10 sm:text-base text-[15px] lg:leading-[25px] text-white py-5 lg:pb-[78px] lg:pt-[60px]  px-4'>{productcard.text}</p>
+                <p className='font-poppins font-normal z-10 sm:text-base text-[15px] lg:leading-[25px] text-white py-5 lg:pb-[78px] lg:pt-[60px]  px-4'>{meetingcard.text}</p>
             </div>
         </div>
     ));

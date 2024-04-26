@@ -8,33 +8,11 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, EffectFade } from 'swiper/modules';
 import Image from 'next/image';
 import { SwiperButton } from "./Button";
+import { mindsetdata } from './common/Helper';
+
 
 export default function Mindslider() {
-    const meetingcards = [
-        {
-            heading: "1st phase",
-            head: '"The not-wanting-to-be-true"',
-            para: "This phase is characterized by denial and ignoring the final separation."
-        },
-        {
 
-            heading: "2nd phase",
-            head: '"About the mindset agency coach"',
-            para: "Elementum risus cursus vehicula consectetur sapien ut tempor, venenatis turpis. Sed mauris enim."
-        },
-        {
-            heading: "3nd phase",
-            head: '"The not-wanting-to-be-true"',
-            para: "This phase is characterized by denial and ignoring the final separation."
-
-        },
-        {
-            heading: "4nd phase",
-            head: '"About the mindset agency coach"',
-            para: "Elementum risus cursus vehicula consectetur sapien ut tempor, venenatis turpis. Sed mauris enim."
-        },
-
-    ];
 
     return (
         <div className='lg:pt-80 py-8 lg:pb-28 relative'>
@@ -86,23 +64,23 @@ export default function Mindslider() {
                             modules={[EffectFade, Navigation, Pagination]}
                             className="mySwiper"
                         >
-                            {meetingcards.map((meetingcard, index) => (
-                               
+                            {mindsetdata.map((mindsetdata, index) => (
+
                                 <SwiperSlide key={index}>
                                     <div className=" lg:max-w-[5 56px]  lg:ml-[4rem]  slide-card    md:h-[410px] h-[300px] relative z-10 flex flex-col justify-center  bg-[#003E92]" key={index}>
-                                        {meetingcard.heading && (
+                                        {mindsetdata.heading && (
                                             <h2 className='font-poppins font-medium sm:text-base text-[15px] lg:leading-[32px] text-white text-center mx-auto duration-500 max-w-[316px]'>
-                                                {meetingcard.heading}
+                                                {mindsetdata.heading}
                                             </h2>
                                         )}
-                                        {meetingcard.head && (
+                                        {mindsetdata.head && (
                                             <h2 className='font-poppins font-medium sm:text-base text-[15px] lg:leading-[32px] text-white text-center mx-auto duration-500 max-w-[316px]'>
-                                                {meetingcard.head}
+                                                {mindsetdata.head}
                                             </h2>
                                         )}
-                                        {meetingcard.para && (
+                                        {mindsetdata.para && (
                                             <p className='font-poppins sm:text-base text-[15px] leading-[25px] pt-3 font-normal text-white text-center mx-auto duration-500 max-w-[272px] sm:max-w-[316px]'>
-                                                {meetingcard.para}
+                                                {mindsetdata.para}
                                             </p>
                                         )}
                                         <Image
@@ -115,13 +93,13 @@ export default function Mindslider() {
                                         <SwiperButton />
                                     </div>
                                 </SwiperSlide>
-                                
+
                             ))}
-                            
+
                         </Swiper>
                     </div>
                 </div>
-                
+
             </div>
             <Image
                 src="/assets/images/targetellipse.png"

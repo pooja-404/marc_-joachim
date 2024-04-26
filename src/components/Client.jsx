@@ -8,7 +8,7 @@ import { Pagination, Scrollbar } from 'swiper/modules';
 import Image from 'next/image';
 
 export default function Clients() {
-    const meetingcards = [
+    const clientdata = [
         {
             heading: "Nec pellentesque aliquet diam eget sed mi ornare vulputate duis. Posuere id habitasse quis ac ac. Pellentesque eget sed ut tincidunt cras. Ipsum nec placerat vitae orci. Accumsan amet commodo montes, aenean velit gravida tristique montes. Porttitor velit cras venenatis, amet curabitur ultricies ac dictum. ",
             head: "Marrie James-CEO",
@@ -57,14 +57,13 @@ export default function Clients() {
                     }}
                     modules={[Pagination, Scrollbar]}
                     className="mySwiper lg:h-[600px] h-[700px] "
-                    // style={{ height: "lg:600px" }}
                     breakpoints={{
                         992: {
                             direction: 'vertical',
                         },
                     }}
                 >
-                    {meetingcards.map((meetingcard, index) => (
+                    {clientdata.map((clientdata, index) => (
                         <div className='max-w-[820px]'>
                             <SwiperSlide key={index}>
                                 <div className='md:max-w-[820px]  my-9 mx-auto'>
@@ -74,9 +73,9 @@ export default function Clients() {
                                             height={86}
                                             width={86} className='mx-auto lg:-translate-y-9 -translate-y-16 lg:mt-2 mt-4'
                                         />
-                                        <h2 className='font-poppins font-normal sm:text-base text-[15px] lg:leading-[25px]  text-center  duration-500 max-w-[31 6px] px-5 capitalize'>{meetingcard.heading}</h2>
-                                        <h2 className='font-poppins font-medium text-lg lg:leading-[25px]  text-center mx-auto sm:pt-5 pt-3 duration-500 max-w-[316px] capitalize'>{meetingcard.head}</h2>
-                                        <p className='font-poppins sm:text-base text-[15px] leading-[25px]  font-normal  text-center mx-auto pt-1 lg:pb-9  duration-500 max-w-[364px] capitalize'>{meetingcard.para}</p>
+                                        <h2 className='font-poppins font-normal sm:text-base text-[15px] lg:leading-[25px]  text-center  duration-500 max-w-[31 6px] px-5 capitalize'>{clientdata.heading}</h2>
+                                        <h2 className='font-poppins font-medium text-lg lg:leading-[25px]  text-center mx-auto sm:pt-5 pt-3 duration-500 max-w-[316px] capitalize'>{clientdata.head}</h2>
+                                        <p className='font-poppins sm:text-base text-[15px] leading-[25px]  font-normal  text-center mx-auto pt-1 lg:pb-9  duration-500 max-w-[364px] capitalize'>{clientdata.para}</p>
                                     </div>
                                     <div className='flex flex-wrap flex-row -mx-3 mt-5 lg:!pb-28 '>
                                         <div className='sm:w-1/2 w-full  px-3 lg:pb-28'>

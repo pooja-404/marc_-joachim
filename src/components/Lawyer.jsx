@@ -37,7 +37,7 @@ export default function Lawyer() {
                         </div>
                     </div>
                 </div>
-                <div className="!xl:-translate-y-[758px] !-translate-y-[750px] translate-x-[24px]  xl:block hidden">
+                <div className=" !-translate-y-[720px] 2xl:!-translate-y-[758px] translate-x-[24px]  xl:block hidden">
                     <div className="w-[2px] bg-[#F77B0B] h-[145px]  ">
                         <div className="flex items-end translate-y-[104px] translate-x-[43px] ">
                             <p className="text-[#000000] text-[40px] font-normal  leading-[52px] font-helve transform  -rotate-[90deg] ">05</p>

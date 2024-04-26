@@ -1,6 +1,6 @@
 export default function Request() {
     return (
-        <div className="bg-[#F2F8FF] py-12 mt-10 lg:-mt-20">
+        <div className="bg-[#F2F8FF] py-16 mt-10 lg:-mt-20">
             <div className="max-w-[1140px] 2xl:max-w-[1320px]  container px-3 mx-auto">
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div className="md:w-7/12 px-3 max-md:text-center w-full uppercase " data-aos="fade-up-right">
