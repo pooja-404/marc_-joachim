@@ -17,13 +17,13 @@ export default function Footer() {
                     </div>
                     <div className="md:w-2/12 w-full px-3">
                         <div className=" flex items-end justify-center gap-3 md:gap-0 md:flex-col">
-                            <a href="https://www.facebook.com" target="_blank" className="hover:translate-y-[-5px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterFacebook />
+                            <a href="https://www.facebook.com" target="_blank" className="hover:translate-y-[-2px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterFacebook />
                             </a>
-                            <a href="https://www.twitter.com" target="_blank" className="hover:translate-y-[-5px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterInsta />
+                            <a href="https://www.twitter.com" target="_blank" className="hover:translate-y-[-2px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterInsta />
                             </a>
-                            <a href="https://www.emailjs.com/" target="_blank" className="hover:translate-y-[-5px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterTwiter />
+                            <a href="https://www.emailjs.com/" target="_blank" className="hover:translate-y-[-2px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterTwiter />
                             </a>
-                            <a href=" https://www.instagram.com/" target="_blank" className="hover:translate-y-[-5px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterEmail />
+                            <a href=" https://www.instagram.com/" target="_blank" className="hover:translate-y-[-2px] pt-2 hover:shadow-[0px_5px_8px_#fff] transition-all ease-linear duration-500 rounded-[50px]"><FooterEmail />
                             </a>
                         </div>
                     </div>
