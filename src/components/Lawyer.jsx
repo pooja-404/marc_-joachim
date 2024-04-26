@@ -17,7 +17,7 @@ export default function Lawyer() {
                 <div className="flex flex-row  flex-wrap -mx-3 justify-center">
                     <div className="lg:w-1/2  w-full lg:pl-3 lg:pr-10 px-3  text-center" data-aos="zoom-in">
                         <Image
-                            src="/assets/images/lawyer.png"
+                            src="/assets/images/lawyer.webp"
                             height={574}
                             width={559} className="max-md:w-full mx-auto"
                         />
@@ -55,7 +55,7 @@ export default function Lawyer() {
                 </div>
             </div>
             <Image
-                src="/assets/images/layer.png"
+                src="/assets/images/layer.webp"
                 height={212}
                 width={738} className="absolute right-7 -z-10 bottom-56 lg:block hidden "
             />

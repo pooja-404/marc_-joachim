@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image"
 import { useState } from "react";
-import Button from "./Button"
+import Button from "./common/Button"
 import { Logo } from "./common/Icons";
 export default function Navsec() {
     const [show, setshow] = useState(false);
@@ -65,7 +65,7 @@ export default function Navsec() {
                 </div>
             </nav>
             <Image
-                src="/assets/images/headerellipse.png"
+                src="/assets/images/headerellipse.webp"
                 height={500}
                 width={500} className="absolute -z-20 lg:top-[45px] xl:top-0 left-0 xl:left-[-109px] xl:block hidden"
             />

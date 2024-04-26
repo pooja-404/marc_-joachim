@@ -38,12 +38,12 @@ export default function Question() {
                     </div>
                 </div>
                 <Image
-                    src="/assets/images/ellipserose.png"
+                    src="/assets/images/ellipserose.webp"
                     height={220}
                     width={200} className="absolute right-0 top-0"
                 />
                 <Image
-                    src="/assets/images/ellipserose2.png"
+                    src="/assets/images/ellipserose2.webp"
                     height={220}
                     width={200} className="absolute left-0 bottom-[467px] "
                 />

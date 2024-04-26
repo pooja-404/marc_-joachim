@@ -42,7 +42,7 @@ export default function Clients() {
                 </div>
                 <h2 className='font-helve md:text-[52px] sm:text-4xl text-3xl lg:pb-7 font-normal md:leading-[67px] text-center uppercase' data-aos="zoom-in">What our <span className='text-[#F77B0B]'>clients</span> say</h2>
                 <Image
-                    src="/assets/images/collon.png"
+                    src="/assets/images/collon.webp"
                     height={86}
                     width={86} className='mx-auto lg:block hidden translate-x-[29rem] translate-y-[6rem]  mt-2'
                 />
@@ -69,7 +69,7 @@ export default function Clients() {
                                 <div className='md:max-w-[820px]  my-9 mx-auto'>
                                     <div className=" md:h-[270px] h-full py-5 mt-12 flex flex-col justify-center shadow-[0px_2px_48px_0px_#00000014] " key={index}>
                                         <Image
-                                            src="/assets/images/slidimg.png"
+                                            src="/assets/images/slidimg.webp"
                                             height={86}
                                             width={86} className='mx-auto lg:-translate-y-9 -translate-y-16 lg:mt-2 mt-4'
                                         />

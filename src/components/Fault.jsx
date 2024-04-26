@@ -39,7 +39,7 @@ export default function Fault() {
 
             </div>
             <Image
-                src="/assets/images/faultellipse.png"
+                src="/assets/images/faultellipse.webp"
                 height={150}
                 width={170} className="absolute bottom-52 right-0 lg:block hidden"
             />

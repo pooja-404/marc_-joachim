@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, EffectFade } from 'swiper/modules';
 import Image from 'next/image';
-import { SwiperButton } from "./Button";
+import { SwiperButton } from "./common/Button";
 import { mindsetdata } from './common/Helper';
 
 
@@ -84,7 +84,7 @@ export default function Mindslider() {
                                             </p>
                                         )}
                                         <Image
-                                            src="/assets/images/slidewave.png"
+                                            src="/assets/images/slidewave.webp"
                                             height={380}
                                             width={449} className=' right-0 absolute bottom-0 -z-10'
                                         />
@@ -102,7 +102,7 @@ export default function Mindslider() {
 
             </div>
             <Image
-                src="/assets/images/targetellipse.png"
+                src="/assets/images/targetellipse.webp"
                 height={600}
                 width={600} className=' left-0 absolute lg:block hidden -top-[26rem]'
             />

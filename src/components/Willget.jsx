@@ -35,7 +35,7 @@ export default function Willget() {
                             <h2 className="  lg:text-[60px] sm:text-[50px] text-4xl   font-normal md:leading-[67px] font-helve uppercase max-md:text-center">will <span className="text-[#F77B0B]">get</span></h2>
                         </div>
                         <Image
-                            src="/assets/images/rose.png"
+                            src="/assets/images/rose.webp"
                             height={224}
                             width={216} className="md:bl ock hid den" data-aos="fade-down"
                         />
