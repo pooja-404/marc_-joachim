@@ -8,7 +8,7 @@ export default function Willget() {
                 <div className="flex items-center gap-2 mt-5">
                     <div className="mx-auto">
                         <div className=" bg-bg-gradient cursor-pointer hover:shadow-[0px_2px_8px_0px_#003E92] duration-300 p-[1.7px] max-w-[452px] h-[59px] w-full rounded-[63px]" data-aos="zoom-in-down">
-                            <div className=" bg-white h-full w-full py-4 pl-2 pr-8 flex items-center rounded-[63px]">
+                            <div className=" bg-white h-full w-full py-4 pl-2 pr-8 flex items-center rounded-[63px] ">
                                 <Image
                                     src="/assets/images/svg/masseagesvg.svg"
                                     height={47}

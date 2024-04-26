@@ -29,7 +29,7 @@ export default function Clients() {
 
     ];
     return (
-        <div className='lg:pt-8 relative' id='Testimonials'>
+        <div className='lg:pt-8 relative cliendots' id='Testimonials'>
             <div className='max-w-[1140px]  container px-3 mx-auto'>
                 <div className="xl:hidden block my-5">
                     <div className="flex justify-center my-3  items-end">
@@ -56,7 +56,7 @@ export default function Clients() {
                         clickable: true,
                     }}
                     modules={[Pagination, Scrollbar]}
-                    className="mySwiper lg:h-[600px] h-[700px] "
+                    className="mySwiper lg:h-[600px] h-[700px]"
                     breakpoints={{
                         992: {
                             direction: 'vertical',
@@ -65,8 +65,8 @@ export default function Clients() {
                 >
                     {clientdata.map((clientdata, index) => (
                         <div className='max-w-[820px]'>
-                            <SwiperSlide key={index}>
-                                <div className='md:max-w-[820px]  my-9 mx-auto'>
+                            <SwiperSlide key={index} id='mySwiper'>
+                                <div className='md:max-w-[820px]  my-9 mx-auto' >
                                     <div className=" md:h-[270px] h-full py-5 mt-12 flex flex-col justify-center shadow-[0px_2px_48px_0px_#00000014] " key={index}>
                                         <Image
                                             src="/assets/images/slidimg.webp"

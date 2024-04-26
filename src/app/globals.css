@@ -17,16 +17,16 @@
 
 }
 
-.mySwiper .swiper-pagination .swiper-pagination-bullet .slide-card {
-  background: #FFFFFF !important;
-}
-
-.mySwiper .swiper-pagination .swiper-pagination-bullet-active .slide-card {
-  background-color: white !important;
-}
-
 .swiper-wrapper .slide-card {
   transition: opacity 0.5s ease-in-out;
+}
+.cliendots .swiper-pagination-bullet {
+  background: #E6ECF5 !important;
+  opacity: 1 !important;
+}
+.cliendots .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #003E92 !important;
 }
 
 .swiper {
@@ -50,7 +50,7 @@
   margin-top: 20px !important;
 }
 
- #swipe1 .swiper-button-prev:after,
+#swipe1 .swiper-button-prev:after,
 .swiper-button-next:after {
   font-weight: 400 !important;
 }
