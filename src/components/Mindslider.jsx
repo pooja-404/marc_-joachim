@@ -27,7 +27,7 @@ export default function Mindslider() {
                         </div>
                     </div>
                 </div>
-                <div className="-translate-y-[258px] absolute right-[121px]  2xl:right-[70px]   xl:block hidden">
+                <div className="-translate-y-[258px] absolute  right-[121px]  2xl:right-[70px]  transform xl:block hidden">
                     <div className="w-[2px] bg-[#F77B0B] h-[235px]  ">
                         <p className="text-[#000000] text-lg font-light leading-[34px] font-poppins tracking-[4%] transform -translate-y-14 rotate-[90deg]">MJH</p>
                         <p className="text-[#000000] text-[40px] font-normal  leading-[52px] font-helve transform  rotate-[450deg] translate-y-[137px] -translate-x-[68px] ">04</p>

@@ -12,7 +12,7 @@ export default function Targergroup() {
                         </div>
                     </div>
                     <div className="md:w-1/2 w-full px-3 flex    md:justify-end items-end" data-aos="fade-down-left">
-                        <div className="md:max-w-[338px]  md:h-[272px] mr-5   py-7 px-8 bg-[#003E92B2] -backdrop-blur-[100px] lg:mt-[24rem]  mt-5  flex items-center">
+                        <div className="md:max-w-[338px]  md:h-[272px] lg:mr-5   py-7 px-8 bg-[#003E92B2] -backdrop-blur-[100px] lg:mt-[24rem]  mt-5  flex items-center">
                             <p className="font-poppins font-normal sm:text-base text-[15px] leading-[25px] text-white">To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
                         </div>
                     </div>
