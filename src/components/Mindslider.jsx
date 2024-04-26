@@ -36,7 +36,7 @@ export default function Mindslider() {
                     <hr className="w-[45px] h-[2px] bg-[#F77B0B] border-0 -translate-x-[43px]" />
                 </div>
                 <div className='flex flex-wrap flex-row -mx-3'>
-                    <div className='lg:w-5/12 w-full px-3 flex flex-col justify-center' data-aos="fade-right">
+                    <div className='lg:w-6/12 w-full px-3 flex flex-col justify-center' data-aos="fade-right">
                         <p className="font-helve font-normal md:text-[29px] sm:text-2xl text-xl leading-[38px] max-lg:text-center">THE FOUR PHASES OF</p>
                         <h2 className="font-helve font-normal md:text-[52px] sm:text-4xl text-3xl md:leading-[62px] max-lg:text-center">SEPARATION
                             <span className="text-[#F77B0B] lg:block"> MINDSET</span></h2>
@@ -54,7 +54,7 @@ export default function Mindslider() {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-7/12 w-full  relative z-10 justify-center items-end text-center mx-auto   pt-7 px-3 flex flex-col  lg:pt-0' id='swipe1' data-aos="fade-left">
+                    <div className='lg:w-6/12 w-full  relative z-10 justify-center items-end text-center mx-auto   pt-7 px-3 flex flex-col  lg:pt-0' id='swipe1' data-aos="fade-left">
                         <Swiper
                             spaceBetween={30}
                             effect={'fade'}

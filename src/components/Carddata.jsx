@@ -1,7 +1,7 @@
 import { basementcard } from "./common/Helper";
 export default function Carddata() {
     const data = basementcard.map((basementcard, p) => (
-        <div className="lg:w-4/12 sm:w-1/2 w-full mx-auto ">
+        <div className="lg:w-4/12 sm:w-1/2 w-full mx-auto pt-3 lg:pt-0">
             <div className=" lg:max-w-[250px] mx-auto lg:h-[162px] md:[120px] h-[100px] w-full bg-[#003E9233] hover:bg-[#003E92] flex px-5 backdrop-blur-[3px] duration-500 items-center" key={p} >
                 <p className='font-poppins font-normal z-10 sm:text-base text-[15px]  text-base lg:leading-[25px] text-white '>{basementcard.text}</p>
             </div>

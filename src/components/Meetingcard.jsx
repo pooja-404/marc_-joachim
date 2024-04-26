@@ -5,7 +5,7 @@ import { meetingcard } from "./common/Helper";
 export default function Meetingcard() {
 
     const list = meetingcard.map((meetingcard, p) => (
-        <div className="lg:w-4/12  md:w-2/4 sm:w-2/4 w-full   ">
+        <div className="lg:w-4/12  md:w-2/4 sm:w-2/4 w-full pt-3 lg:pt-0   ">
             <div className=" md:max-w-[250px] lg:h-[200px] h-[100px] mx-auto   bg-[#FFFFFF26] hover:bg-[#003E92]  px-5 duration-500 -backdrop-blur-[100px] " key={p} >
                 <p className='font-poppins font-normal z-10 sm:text-base text-[15px] lg:leading-[25px] text-white py-5 lg:pb-[78px] lg:pt-[60px]  px-4'>{meetingcard.text}</p>
             </div>
@@ -13,8 +13,8 @@ export default function Meetingcard() {
     ));
     return (
         <>
-            <div className="max-w-[1140px] 2xl:max-w-[1320px]  container mx-auto px-3  py-8 lg:pt-20 " >
-                <div className="justify-center flex">
+            <div className="max-w-[1140px] 2xl:max-w-[1320px]   container mx-auto px-3  py-8 lg:pt-20 " >
+                <div className="justify-center flex pb-3 lg:pb-0">
                     <div className=" flex flex-wrap flex-row justify-center" data-aos="fade-right">
                         {list}
                     </div>
