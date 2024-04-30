@@ -3,7 +3,7 @@ export default function Fault() {
     return (
         <div className="relative xl:-mb-60">
             <div className="max-w-[1140px] 2xl:max-w-[1320px]  container px-3 mx-auto xl:pt-36 py-10 pb-10">
-                <div className="xl:hidden block my-5">
+                <div className="xl:hidden block my-7">
                     <div className="flex justify-center my-3  items-end">
                         <hr className="w-[2px]  h-[42px] bg-[#F77B0B] border-0  " />
                         <hr className="[45px] max-[375px]:w-[90px] w-[250px] h-[2px] bg-[#F77B0B] border-0  " />
@@ -14,14 +14,14 @@ export default function Fault() {
                     </div>
                 </div>
                 <div className="max-w-[900px] mx-auto lg:pl-24 pt-9 lg:pt-0">
-                    <div className="md:flex items-center gap-24">
+                    <div className="md:flex items-start gap-24">
                         <div data-aos="flip-up" >
                             <h2 className="text-[#000000] text-[60px] font-normal md:!leading-[77px] max-lg:text-center font-helve lg:text-[60px] sm:!text-[50px] !text-4xl">IT'S NOT </h2>
                             <h2 className="max-lg:text-center"><span className="text-[#F77B0B] md:pl-16 text-[60px] font-normal  md:leading-[77px]  font-helve lg:text-[60px] sm:!text-[50px] !text-4xl ">YOUR <span className="text-[#000000]">FAULT!</span></span></h2>
                         </div>
                         <div className="flex items-center gap-2" data-aos="flip-down">
                             <div className="w-[2px] h-[65px] bg-[#9800B0] lg:block hidden"></div>
-                            <p className="font-poppins sm:text-base text-[15px] max-lg:text-center leading-[25px] font-normal text-[#000000] pt-2 lg:max-w-[288px]">It's not your fault for not knowing how to let go of the partner who no longer made you feel special.</p>
+                            <p className="font-poppins sm:text-base text-[15px] max-lg:text-center leading-[25px] font-normal text-[#000000]  lg:max-w-[288px]">It's not your fault for not knowing how to let go of the partner who no longer made you feel special.</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ export default function Fault() {
             <Image
                 src="/assets/images/faultellipse.webp"
                 height={150}
-                width={170} className="absolute bottom-52 right-0 lg:block hidden"
+                width={200} className="absolute bottom-52 right-0 lg:block hidden"
             />
 
         </div>

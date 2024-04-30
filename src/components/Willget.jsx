@@ -28,8 +28,8 @@ export default function Willget() {
                         <p className="text-[#000000] lg:text-[40px] text-[35px] font-normal  leading-[52px] font-helve transform  rotate-[271deg] translate-y-[7px]  ">02</p>
                     </div>
                 </div>
-                <div className="md:flex items-center gap-5  lg:pt-24">
-                    <div className="pt-5 flex items-center  justify-center">
+                <div className="md:flex items-center gap-9  lg:pt-24">
+                    <div className="pt-5 flex items-center gap-5  justify-center">
                         <div data-aos="fade-down">
                             <h2 className="text-[#000000] md:text-[52px] sm:text-4xl text-3xl font-normal md:leading-[67px] font-helve uppercase max-md:text-center">what you </h2>
                             <h2 className="  lg:text-[60px] sm:text-[50px] text-4xl   font-normal md:leading-[67px] font-helve uppercase max-md:text-center">will <span className="text-[#F77B0B]">get</span></h2>
